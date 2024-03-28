@@ -1,0 +1,21 @@
+.product-item {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.product-item li {
+    margin-bottom: 5px; /* Ajusta el espacio entre cada elemento de la lista */
+}
+
+.product-item li span {
+    display: block; /* Hace que cada valor esté en su propia línea */
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
